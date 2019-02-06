@@ -6928,6 +6928,9 @@ header {
   @media screen and (max-width: 992px) {
     .number {
       margin-right: 1.11111rem; } }
+  @media screen and (max-width: 768px) {
+    .number {
+      margin-right: 0.55556rem; } }
   @media screen and (max-width: 480px) {
     .number {
       margin-right: 0.27778rem; } }
@@ -6944,7 +6947,7 @@ header {
         font-size: 0.77778rem; } }
     @media screen and (max-width: 768px) {
       .number a {
-        font-size: 0.66667rem;
+        font-size: 0.61111rem;
         letter-spacing: 0; } }
     @media screen and (max-width: 480px) {
       .number a {
@@ -7041,8 +7044,7 @@ header {
   @media screen and (max-width: 768px) {
     .header__link img {
       top: -0.55556rem;
-      left: -0.83333rem;
-      width: 7.22222rem; } }
+      width: 6.66667rem; } }
   @media screen and (max-width: 480px) {
     .header__link img {
       left: -2.05556rem;
@@ -7070,6 +7072,9 @@ header {
     .btn {
       margin-top: 0;
       margin-right: 0.55556rem; } }
+  @media screen and (max-width: 768px) {
+    .btn {
+      margin-right: 0.27778rem; } }
   .btn:last-child {
     margin-right: 0; }
 
@@ -7095,7 +7100,7 @@ header {
     .btn button {
       font-size: 0.44444rem;
       width: 6.66667rem;
-      padding: 0.27778rem 0.27778rem; } }
+      padding: 0.27778rem 0; } }
   @media screen and (max-width: 480px) {
     .btn button {
       font-size: 0.33333rem;
@@ -7156,10 +7161,10 @@ nav {
       padding-right: 2.77778rem; } }
   @media screen and (max-width: 768px) {
     .nav__link {
-      padding-right: 0.55556rem; } }
+      padding-right: 1.66667rem; } }
   @media screen and (max-width: 480px) {
     .nav__link {
-      padding-right: 0.27778rem; } }
+      padding-right: 0.83333rem; } }
   .nav__link:first-child {
     padding-right: 4rem; }
     @media screen and (max-width: 992px) {
@@ -7167,10 +7172,10 @@ nav {
         padding-right: 2.77778rem; } }
     @media screen and (max-width: 768px) {
       .nav__link:first-child {
-        padding-right: 0.55556rem; } }
+        padding-right: 1.66667rem; } }
     @media screen and (max-width: 480px) {
       .nav__link:first-child {
-        padding-right: 0.27778rem; } }
+        padding-right: 0.83333rem; } }
   .nav__link:last-child {
     padding-right: 0;
     border-right: none; }
