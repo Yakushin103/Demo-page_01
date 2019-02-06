@@ -31,7 +31,7 @@
               </div>
               <div class="number">
                 <a href="tel:+447771007676">+44 777 100 7676</a>
-                <div class="number__line">
+                <div class="number__line number__line_top">
                   <p>viber & whatsup</p>
                   <span></span>
                 </div>
@@ -50,44 +50,45 @@
             </div>
           </div>
         </div>
-      </header>
-      <nav id=nav>
-        <div class="container nav">
-          <ul class="nav__items">
-            <li class="nav__link">
+        <nav id=nav>
+          <div class="container nav">
+            <ul class="nav__items">
+              <li class="nav__link">
+                <a href="#">Главная</a>
+              </li>
+              <li class="nav__link">
+                <a href="#">Услуги</a>
+              </li>
+              <li class="nav__link">
+                <a href="#">Автопарк</a>
+              </li>
+              <li class="nav__link">
+                <a href="#">События</a>
+              </li>
+              <li class="nav__link">
+                <a href="#">О нас</a>
+              </li>
+              <li class="nav__link">
+                <a href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="container breadcrumb">
+          <ul class="breadcrumb__items">
+            <li class="breadcrumb__link">
               <a href="#">Главная</a>
             </li>
-            <li class="nav__link">
-              <a href="#">Услуги</a>
-            </li>
-            <li class="nav__link">
-              <a href="#">Автопарк</a>
-            </li>
-            <li class="nav__link">
+            <li class="breadcrumb__link">
               <a href="#">События</a>
             </li>
-            <li class="nav__link">
-              <a href="#">О нас</a>
-            </li>
-            <li class="nav__link">
-              <a href="#">Контакты</a>
+            <li class="active">
+              <p>Экскурсии</p>
             </li>
           </ul>
         </div>
-      </nav>
-      <div class="container breadcrumb">
-        <ul class="breadcrumb__items">
-          <li class="breadcrumb__link">
-            <a href="#">Главная</a>
-          </li>
-          <li class="breadcrumb__link">
-            <a href="#">События</a>
-          </li>
-          <li class="active">
-            <p>Экскурсии</p>
-          </li>
-        </ul>
-      </div>
+      </header>
+
       <main id="main">
         <div class="container main">
           <div class="main__title">
@@ -97,8 +98,14 @@
               <h1>Экскурсии</h1>
               <span></span>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt.</p>
+            <div class="main__title_text">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
+              <p>dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+              <p>aliquip ex ea commodo consequat. </p>
+            </div>
+            <div class="main__title_text">
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> <p>Excepteur sint occaecat cupidatat non proident, sunt.</p>
+            </div>
           </div>
           <div class="main__items">
             <div class="main__link">
@@ -111,7 +118,7 @@
                 <button type="button" name="button">Подробнее</button>
               </div>
             </div>
-            <div class="main__link">
+            <div class="main__link main__link_slim">
               <div class="main__link_pic main__link_pic_1"></div>
               <h2>Farnborough airshow 2018</h2>
               <span></span>
@@ -131,7 +138,7 @@
                 <button type="button" name="button">Подробнее</button>
               </div>
             </div>
-            <div class="main__link">
+            <div class="main__link main__link_slim">
               <div class="main__link_pic main__link_pic_3"></div>
               <h2>Silverstone</h2>
               <span></span>
@@ -172,26 +179,26 @@
               <span></span>
               <ul class="footer__list">
                 <li class="footer__list__link">
-                  <a href="#">Mersedes S-Class</a>
+                  <a href="#">Mercedes S-Class</a>
                 </li>
                 <li class="footer__list__link">
-                  <a href="#">Mersedes V-Class</a>
+                  <a href="#">Mercedes V-Class</a>
                 </li>
                 <li class="footer__list__link">
-                  <a href="#">Mersedes E-Class</a>
+                  <a href="#">Mercedes E-Class</a>
                 </li>
                 <li class="footer__list__link">
-                  <a href="#">Rols-Royce Ghost</a>
+                  <a href="#">Rolls-Royce Ghost</a>
                 </li>
                 <li class="footer__list__link">
-                  <a href="#">Rols-Royce Phantom</a>
+                  <a href="#">Rolls-Royce Phantom</a>
                 </li>
                 <li class="footer__list__link">
                   <a href="#">Bentley Mulsanne</a>
                 </li>
               </ul>
             </div>
-            <div class="footer__link">
+            <div class="footer__link footer__link_service">
               <h3>Наш Сервис</h3>
               <span></span>
               <ul class="footer__list">
@@ -240,19 +247,19 @@
               </ul>
             </div>
             <div class="footer__link footer__link_end">
-              <div class="footer__btn">
+              <div class="footer__btn footer__btn_active">
                 <button type="button" name="button">Сделать заказ</button>
               </div>
               <div class="footer__btn">
-                <button type="button" name="button">Узнать цену</button>
+                <button type="button" name="button">Узнать тариф</button>
               </div>
               <div class="footer__contact">
                 <div class="footer__contact__number">
                   <a href="tel:+4402077198816">+44 020 7719 8816</a>
                   <p>круглосуточно</p>
                 </div>
-                <div class="footer__contact__number">
-                  <a href="tel:+4402077198816">+44 020 7719 8816</a>
+                <div class="footer__contact__number footer__contact__number_wide">
+                  <a href="tel:+4402077198816">+44 777 100 7676</a>
                   <p>Viber & whatsup</p>
                 </div>
                 <div class="footer__contact__social">
