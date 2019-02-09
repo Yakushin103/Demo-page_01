@@ -7194,14 +7194,18 @@ header {
   align-items: center; }
   .form__feedback input {
     width: 100%;
+    font-size: 14px;
     border: 1px solid #2f2c34;
     margin-bottom: 10px;
     padding: 5px; }
   .form__feedback textarea {
     width: 100%;
+    font-size: 14px;
     border: 1px solid #2f2c34;
     padding: 5px;
     margin-bottom: 20px; }
+  .form__feedback p {
+    font-size: 14px; }
 
 .feedback__head {
   width: 100%;
