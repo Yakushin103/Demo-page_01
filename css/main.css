@@ -6879,7 +6879,7 @@ textarea {
 header {
   width: 100%;
   padding-top: 1.44444rem;
-  padding-bottom: 1.11111rem;
+  padding-bottom: 1.05556rem;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   -webkit-flex-direction: column;
@@ -6896,7 +6896,7 @@ header {
   -ms-flex-direction: column;
   flex-direction: column;
   position: relative;
-  margin-bottom: 0.55556rem; }
+  margin-bottom: 0.61111rem; }
 
 .header__line, .header__item {
   width: 100%;
@@ -6947,9 +6947,10 @@ header {
   .number a {
     font-style: 'Montserrat', sans-serif;
     font-weight: 500;
-    letter-spacing: 0.07778rem;
+    text-shadow: 1px 0px #a4a4a4;
+    letter-spacing: 0.04722rem;
     color: #2f2c34;
-    font-size: 0.88889rem;
+    font-size: 0.94444rem;
     text-transform: uppercase;
     cursor: pointer; }
     @media screen and (max-width: 992px) {
@@ -7031,8 +7032,8 @@ header {
 
 .header__link img {
   position: absolute;
-  left: calc(50% - 115px);
-  top: -1.66667rem;
+  left: calc(50% - 105px);
+  top: -1.77778rem;
   width: 11.77778rem; }
   @media screen and (max-width: 1200px) {
     .header__link img {
@@ -7076,11 +7077,11 @@ header {
   letter-spacing: 0.06111rem;
   padding: 0.33333rem 0rem;
   font-size: 0.66667rem;
+  text-shadow: 1px 1px #a4a4a4;
   font-weight: 500;
   text-transform: uppercase;
   background: transparent;
   border: 1px solid #2f2c34;
-  border-top: 1px solid #a4a4a4;
   cursor: pointer;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -7100,6 +7101,7 @@ header {
       width: 4.44444rem; } }
   .btn button:hover {
     color: #fff;
+    text-shadow: 1px 0 #fff;
     background: #d0aa8c;
     border: 1px solid #d0aa8c;
     -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -7122,7 +7124,7 @@ header {
     -o-transition: 0.5s;
     transition: 0.5s; }
 
-#modal1, #modal2, #modal3 {
+#modal1, #modal2, #modal3, #modal4 {
   width: 300px;
   height: 300px;
   /* Рaзмеры дoлжны быть фиксирoвaны */
@@ -7237,7 +7239,7 @@ nav {
 
 .nav {
   width: 100%;
-  padding: 1rem 0.83333rem; }
+  padding: 1.11111rem 0.83333rem; }
   @media screen and (max-width: 768px) {
     .nav {
       padding: 0.72222rem 0.27778rem; } }
@@ -7250,7 +7252,7 @@ nav {
 
 .nav ul li {
   padding-right: 3.88889rem;
-  border-right: 1px solid #a4a4a4; }
+  border-right: 1px solid #737075; }
   @media screen and (max-width: 1200px) {
     .nav ul li {
       width: 16%;
@@ -7310,6 +7312,7 @@ nav {
   -moz-align-items: center;
   align-items: center;
   padding: 0.5rem 0.83333rem;
+  padding-bottom: 0.44444rem;
   border-bottom: 1px solid rgba(47, 44, 52, 0.1); }
   @media screen and (max-width: 768px) {
     .breadcrumb {
@@ -7345,7 +7348,8 @@ nav {
 
 .main {
   width: 100%;
-  padding: 0.27778rem 0.83333rem;
+  background: #fdfdfd;
+  padding: 0.33333rem 0.83333rem;
   padding-bottom: 2.88889rem;
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
@@ -7644,7 +7648,7 @@ footer {
   line-height: 1.37; }
 
 .footer__list li {
-  padding-right: 3.88889rem;
+  padding-right: 4.16667rem;
   border-right: 1px solid #a4a4a4; }
   @media screen and (max-width: 1200px) {
     .footer__list li {
@@ -7671,6 +7675,10 @@ footer {
   padding-left: 1.77778rem;
   border-right: 1px solid #a4a4a4;
   padding-right: 4.55556rem; }
+  @media screen and (max-width: 1200px) {
+    .footer__link_border {
+      padding-right: 2.22222rem;
+      padding-left: 1.11111rem; } }
   @media screen and (max-width: 992px) {
     .footer__link_border {
       padding-right: 0.55556rem; } }
@@ -7701,11 +7709,11 @@ footer {
   border-right: none; }
 
 .footer__link_end {
-  padding-left: 3.61111rem;
+  padding-left: 4.16667rem;
   padding-right: 0; }
-  @media screen and (max-width: 992px) {
+  @media screen and (max-width: 1200px) {
     .footer__link_end {
-      padding-left: 2.77778rem; } }
+      padding-left: 2.22222rem; } }
   @media screen and (max-width: 768px) {
     .footer__link_end {
       padding-left: 0.55556rem; } }
